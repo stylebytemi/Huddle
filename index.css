@@ -272,7 +272,7 @@ a{
     padding-right: 50px;
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 600px){
     * {
         margin: 0;
         padding: 0;
@@ -280,10 +280,12 @@ a{
     }
     .div-flex1{
         width: 20rem;
+        margin: auto;
     }
     .div-flex2{
         flex-direction: column;
         text-align: center;
+        margin: auto;
     }
     .titlediv2{
         width: 19rem;
@@ -292,6 +294,9 @@ a{
     }
     .wdiv{
         width: 19rem;
+        margin: auto;
+    }
+    #do{
         margin-top: 30px;
     }
     #img03{
@@ -334,6 +339,29 @@ a{
     #img02{
         width: 17rem;
         margin: auto;
+    }
+    .lastf{
+        /* justify-content: center; */
+        margin: auto;
+    }
+    .page6{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .sm, .p10{
+        align-items: center;
+        margin: auto;
+    }
+    .lastpara{
+        text-align: center;
+        padding-right: 0%;
+    }
+    .logodiv1{
+        margin: 0%;
+        padding-left: 0%;
+    }
+    #fed{
+        padding-top: 15%;
     }
 
 
